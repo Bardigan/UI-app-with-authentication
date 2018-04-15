@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+
+html {
+  text-align: center;
+  position: relative;
+  height:100%;
+  font-family: 'Quicksand', sans-serif;
+  background: #ddd;
+}
+
+
+.loginWraper {
+  max-width: 440px;
+  min-height: 500px;
+  height: auto;
+  margin: 3% auto;
+  position: relative;
+  text-align: center;
+  border: 1px solid #ccc;
+
+}
+
+.loginWraper form {
+  width: 100%;
+}
+
+.innerWrapper {
+  max-width: 440px;
+  min-height: 500px;
+  background-color: white;
+  position: relative;
+
+}
+
+.innerWrapperAdd {
+  max-width: 440px;
+  min-height: 500px;
+  background-color: white;
+  position: relative;
+
+}
+
+input[class="form-input"]{
+  margin-top: 12%;
+  min-width: 70%;
+  height: 55px;
+  padding: 0 20px;  
+  font-size: 14px;
+  font-family: 'Abel', sans-serif;
+  color: #5E6472;
+  outline: none;
+  border: 1px solid #ccc;
+  border-radius: 5px 5px 5px 5px;
+  transition: 0.2s linear;  
+  position: relative;
+  font-family: 'Quicksand', sans-serif;
+}
+
+input[class="form-input"]:focus {
+  border: 1px solid #FF5722;
+}
+
+input::placeholder {
+  color: black;
+  opacity: 1; 
+}
+
+input:-ms-input-placeholder { 
+  color: black;
+}
+
+input::-ms-input-placeholder { 
+  color: black;
+}
+
+.loginWraper button {
+    color: white;
+    min-width: 350px;
+    height: 50px;  
+    padding: 0 20px;
+    background: #fff;
+    border-radius: 5px;    
+    outline: none;
+    border: 1px solid #ccc;  
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.2s linear;
+    margin: 15% 0;
+    font-family: 'Quicksand', sans-serif;
+    background-color: black;
+    font-size: 1.2rem;
+}
+
+.innerWrapper a {
+  color: black;
+}
+
+.registrationPageLinkWrapper {
+  padding-bottom: 50px;
+}
+
+.innerWrapper h1 {
+  color: black;
+  padding-top: 55px;
+  margin-bottom: 5px;
+}
+
+.loginWraper button:hover {
+  background-color: #FF5722;
+}
+
+.loginWraper p {
+  margin: 0;
+  color: #b8bdbd;
+  padding-top: 10px;
+}
+
+.loginWraper a {
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.dashboardWrapper {
+  max-width: 560px;
+  min-height: 520px;
+  height: auto;
+  margin: 3% auto;
+  background: white;
+  position: relative;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+.dashboardInnerWrapper {
+  max-width: 560px;
+  min-height: 520px;
+  position: relative;
+  background: white;
+  color: black;
+}
+
+header a {
+  color: white;
+  width: 33%;
+  display: inline-block;
+}
+
+header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: auto;
+  background: black;
+}
+
+.dashboardInnerWrapper .greeting{
+  text-align: right;
+  padding-right: 80px;
+  background: #ccc;
+  color: white;
+  font-size: 45px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.listItem {
+  background: white;
+  transition: all 0.3s linear;
+  text-align: left;
+  height: auto;
+}
+
+.descriptionAmount {
+  width:100%;
+  padding-top: 30px; 
+}
+
+.listItem div {
+  display: inline-block;
+}
+
+.description {
+  width: 250px;
+  padding-left: 20px;
+}
+.amount {
+  float: right;
+  padding-right: 20px;
+}
+
+.listItem p {
+  padding-bottom: 10px;
+  color: #ccc;
+  padding-left: 20px;
+}
+
+.listItem:hover {
+  background: rgb(240, 239, 239);
+}
+
+
+
+.editExpensePage h1 {
+  margin-top: 25px ;
+};
+
+.addExpensePage h1 {
+  margin-top: 25px ;
+}
+
+input[class="addInput"]{
+  margin-top: 8%;
+  min-width: 70%;
+  height: 55px;
+  padding: 0 20px;  
+  font-size: 14px;
+  font-family: 'Abel', sans-serif;
+  color: #5E6472;
+  outline: none;
+  border: 1px solid #ccc;
+  border-radius: 5px 5px 5px 5px;
+  transition: 0.3s linear;  
+  position: relative;
+  font-family: 'Quicksand', sans-serif;
+}
+
+input[class="addInput"]:focus {
+  border: 1px solid #FF5722;
+}
+
+.addExpensePage {
+  width: 100%;
+  height: 100%;
+}
+
+.addExpenseButton {
+  height: 50px;
+  padding: 0 20px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.2s ease-in-out;
+  font-family: 'Quicksand', sans-serif;
+  background: black;
+  color: white;
+  margin: 0px 50px;
+  font-size: 14px;
+}
+
+.addExpenseButton:hover {
+  background-color: #FF5722;
+}
+
+.editExpenseButton:hover {
+  background-color: #FF5722;
+}
+
+.removeButton {
+  min-width: 120px;
+  height: 50px;
+  padding: 0 20px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.2s ease-in-out;
+  font-family: 'Quicksand', sans-serif;
+  background-color: black;
+  color: white;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.removeButton:hover {
+  background-color: #FF5722;
+}
+
+.editExpenseButton {
+  min-width: 100px;
+  height: 50px;
+  padding: 0 20px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.2s ease-in-out;
+  font-family: 'Quicksand', sans-serif;
+  background: black;
+  color: white;
+  font-size: 14px;
+  margin-top: 2px;
+  margin-left: 10px;
+}
+
+.editExpensePage {
+  height: auto;
+  text-align: center;
+  width:100%;
+}
+
+.editWrapper {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.addButtonWrapper {
+  padding: 30px 0;
+}
+
+.ExpenseDashboardPage {
+  overflow-wrap: break-word;
+}
+
